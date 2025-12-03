@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Biriyani:wght@300;400;600;700&family=Tenor+Sans&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Tenor Sans", sans-serif;
+  --font-body: "Biriyani", sans-serif;
+
+  --color-primary: #767627;
+  --color-primary-light: #C4C788;
+  --color-primary-dark: #4A5B28;
+
+  --color-accent-rust: #963012;
+  --color-accent-orange: #F08915;
+  --color-accent-yellow: #FBCF5B;
+  --color-accent-brown: #AA4B0B;
+
+  --color-neutral-cream: #F1E8CE;
+}
+
+@layer base {
+  body {
+    @apply font-body text-gray-800 bg-neutral-cream;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-sans;
+  }
+}
