@@ -26,19 +26,35 @@ const Header = () => {
             </div>
 
             <nav className="hidden md:flex gap-8 font-body text-sm tracking-wide text-primary-dark font-medium">
-    <button onClick={() => scrollToSection('home')} className="hover:text-primary transition-colors">
+    <button
+        onClick={() => scrollToSection('home')}
+        className="cursor-pointer hover:text-primary transition-colors"
+    >
         HOME
     </button>
-    <button onClick={() => scrollToSection('about')} className="hover:text-primary transition-colors">
+
+    <button
+        onClick={() => scrollToSection('about')}
+        className="cursor-pointer hover:text-primary transition-colors"
+    >
         ABOUT US
     </button>
-    <button onClick={() => scrollToSection('why')} className="hover:text-primary transition-colors">
+
+    <button
+        onClick={() => scrollToSection('why')}
+        className="cursor-pointer hover:text-primary transition-colors"
+    >
         WHY US
     </button>
-    <button onClick={() => scrollToSection('contact')} className="hover:text-primary transition-colors">
+
+    <button
+        onClick={() => scrollToSection('contact')}
+        className="cursor-pointer hover:text-primary transition-colors"
+    >
         CONTACT US
     </button>
 </nav>
+
 
 
             {/* <div className="flex items-center gap-6 text-primary-dark">
