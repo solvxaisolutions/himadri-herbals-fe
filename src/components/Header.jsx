@@ -2,6 +2,17 @@ import React from 'react';
 import { Menu, Search, ShoppingBag, User } from 'lucide-react';
 import logo from '../assets/logo.png';
 
+const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (!element) return;
+
+    element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+    });
+};
+
+
 const Header = () => {
     return (
         <header className="bg-neutral-cream py-4 px-6 md:px-12 flex justify-between items-center sticky top-0 z-50 shadow-sm">
@@ -15,16 +26,26 @@ const Header = () => {
             </div>
 
             <nav className="hidden md:flex gap-8 font-body text-sm tracking-wide text-primary-dark font-medium">
-                <a href="#" className="hover:text-primary transition-colors">SHOP</a>
-                <a href="#" className="hover:text-primary transition-colors">ABOUT US</a>
-                <a href="#" className="hover:text-primary transition-colors">GET HELP</a>
-            </nav>
+    <button onClick={() => scrollToSection('home')} className="hover:text-primary transition-colors">
+        HOME
+    </button>
+    <button onClick={() => scrollToSection('about')} className="hover:text-primary transition-colors">
+        ABOUT US
+    </button>
+    <button onClick={() => scrollToSection('why')} className="hover:text-primary transition-colors">
+        WHY US
+    </button>
+    <button onClick={() => scrollToSection('contact')} className="hover:text-primary transition-colors">
+        CONTACT US
+    </button>
+</nav>
 
-            <div className="flex items-center gap-6 text-primary-dark">
+
+            {/* <div className="flex items-center gap-6 text-primary-dark">
                 <Search className="w-5 h-5 cursor-pointer hover:text-primary transition-colors" />
                 <User className="w-5 h-5 cursor-pointer hover:text-primary transition-colors" />
                 <ShoppingBag className="w-5 h-5 cursor-pointer hover:text-primary transition-colors" />
-            </div>
+            </div> */}
         </header>
     );
 };
