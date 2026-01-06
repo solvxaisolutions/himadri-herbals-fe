@@ -37,11 +37,7 @@ const Hero = () => {
                         <span className="font-semibold text-primary-dark">
                             Himadri Herbals
                         </span>
-                        , an ayurvedic beauty brand dedicated to embracing the
-                        essence of nature. Rooted in the wisdom of Ayurveda, our
-                        journey began with a passion for creating authentic,
-                        earth-friendly solutions that redefine natural beauty in
-                        a world often driven by artificial quick fixes.
+                        , an Ayurveda-based beauty and personal care company founded in 2015, and we’ve proudly completed 10 successful years of serving customers with nature-inspired formulations. We have grown from a Kerala-focused brand to a strong distribution network across all districts in Kerala, and we are now expanding step-by-step to the rest of India. Rooted in traditional Ayurvedic wisdom and made for modern lifestyles, our products are created to support everyday beauty routines with trusted herbal care..
                     </p>
 
                     <div className="mt-12 p-8 bg-white/50 backdrop-blur rounded-2xl border border-primary-light/30">
