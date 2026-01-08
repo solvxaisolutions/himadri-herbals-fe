@@ -24,6 +24,7 @@ export default {
             fontFamily: {
                 sans: ['Tenor Sans', 'sans-serif'],
                 body: ['Biriyani', 'sans-serif'],
+                poster: ['Archivo Black', 'sans-serif'],
             },
         },
     },

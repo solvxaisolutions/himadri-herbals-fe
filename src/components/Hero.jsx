@@ -4,23 +4,63 @@ const Hero = () => {
     return (
         <>
             {/* HOME SECTION */}
-            <section id="home" className="bg-neutral-cream">
-                {/* Banner Image */}
-                <div className="relative w-full h-[60vh] md:h-[80vh] overflow-hidden">
-                    <img
-                        src="/heroimage1.png"
-                        alt="Natural herbal products"
-                        className="w-full h-full object-cover"
-                    />
+           <section id="home" className="bg-neutral-cream">
+    <div className="relative w-full h-[70vh] md:h-[80vh] overflow-hidden">
 
-                    {/* Overlay */}
-                    <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
-                        <h1 className="text-4xl md:text-6xl text-white font-sans italic tracking-wide text-center px-4">
-                            A dose of earthy goodness
-                        </h1>
-                    </div>
+        {/* Background image */}
+        <img
+            src="/heroimage1.png"
+            alt="Natural herbal products"
+            className="absolute inset-0 w-full h-full object-cover"
+        />
+
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-black/40" />
+
+        {/* ===== MOBILE POSTER TEXT ===== */}
+        <div className="relative h-full grid grid-cols-2 md:hidden">
+            <div className="flex items-center">
+                <div className="pl-8">
+                    <h1
+                        className="
+                            font-sans font-extrabold uppercase text-white
+                            text-[42px] leading-[0.9]
+                            tracking-tight
+                        "
+                    >
+                        A dose <br />
+                        of <br />
+                        earthy <br />
+                        goodness
+                    </h1>
                 </div>
-            </section>
+            </div>
+            <div />
+        </div>
+
+        {/* ===== DESKTOP NORMAL CENTER TEXT ===== */}
+       <div className="hidden md:flex absolute inset-0 bg-black/30 items-center justify-center">
+    <h1
+        className="
+            font-sans font-extrabold uppercase
+            text-white
+            text-5xl lg:text-6xl
+            tracking-tight
+            text-center
+            px-4
+        "
+    >
+        A dose of earthy goodness
+    </h1>
+</div>
+
+
+    </div>
+</section>
+
+
+
+
 
             {/* ABOUT SECTION */}
             <section
