@@ -4,44 +4,44 @@ const Hero = () => {
     return (
         <>
             {/* HOME SECTION */}
-           <section id="home" className="bg-neutral-cream">
-    <div className="relative w-full h-[70vh] md:h-[80vh] overflow-hidden">
+            <section id="home" className="bg-neutral-cream scroll-mt-32">
+                <div className="relative w-full h-[70vh] md:h-[80vh] overflow-hidden">
 
-        {/* Background image */}
-        <img
-            src="/heroimage1.png"
-            alt="Natural herbal products"
-            className="absolute inset-0 w-full h-full object-cover"
-        />
+                    {/* Background image */}
+                    <img
+                        src="/heroimage1.png"
+                        alt="Natural herbal products"
+                        className="absolute inset-0 w-full h-full object-cover"
+                    />
 
-        {/* Overlay */}
-        <div className="absolute inset-0 bg-black/40" />
+                    {/* Overlay */}
+                    <div className="absolute inset-0 bg-black/40" />
 
-        {/* ===== MOBILE POSTER TEXT ===== */}
-        <div className="relative h-full grid grid-cols-2 md:hidden">
-            <div className="flex items-center">
-                <div className="pl-8">
-                    <h1
-                        className="
+                    {/* ===== MOBILE POSTER TEXT ===== */}
+                    <div className="relative h-full grid grid-cols-2 md:hidden">
+                        <div className="flex items-center">
+                            <div className="pl-8">
+                                <h1
+                                    className="
                             font-sans font-extrabold uppercase text-white
                             text-[42px] leading-[0.9]
                             tracking-tight
                         "
-                    >
-                        A dose <br />
-                        of <br />
-                        earthy <br />
-                        goodness
-                    </h1>
-                </div>
-            </div>
-            <div />
-        </div>
+                                >
+                                    A dose <br />
+                                    of <br />
+                                    earthy <br />
+                                    goodness
+                                </h1>
+                            </div>
+                        </div>
+                        <div />
+                    </div>
 
-        {/* ===== DESKTOP NORMAL CENTER TEXT ===== */}
-       <div className="hidden md:flex absolute inset-0 bg-black/30 items-center justify-center">
-    <h1
-        className="
+                    {/* ===== DESKTOP NORMAL CENTER TEXT ===== */}
+                    <div className="hidden md:flex absolute inset-0 bg-black/30 items-center justify-center">
+                        <h1
+                            className="
             font-sans font-extrabold uppercase
             text-white
             text-5xl lg:text-6xl
@@ -49,14 +49,14 @@ const Hero = () => {
             text-center
             px-4
         "
-    >
-        A dose of earthy goodness
-    </h1>
-</div>
+                        >
+                            A dose of earthy goodness
+                        </h1>
+                    </div>
 
 
-    </div>
-</section>
+                </div>
+            </section>
 
 
 
@@ -65,7 +65,7 @@ const Hero = () => {
             {/* ABOUT SECTION */}
             <section
                 id="about"
-                className="bg-neutral-cream pb-16 scroll-mt-24"
+                className="bg-neutral-cream pb-16 scroll-mt-32"
             >
                 <div className="max-w-4xl mx-auto px-6 mt-16 text-center">
                     <h2 className="text-3xl md:text-4xl font-sans text-primary mb-8">

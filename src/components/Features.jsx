@@ -11,7 +11,7 @@ const Features = () => {
     ];
 
     return (
-        <section id="why" className="relative py-20 bg-white overflow-hidden">
+        <section id="why" className="relative py-20 bg-white overflow-hidden scroll-mt-32">
 
             {/* LEFT SVG LEAF */}
             <svg
