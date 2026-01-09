@@ -67,7 +67,7 @@ const Header = () => {
 
             {/* Mobile Menu */}
             {menuOpen && (
-                <nav className="md:hidden mt-6 flex flex-col gap-4 font-body text-sm tracking-wide text-primary-dark font-medium bg-white rounded-xl p-4 shadow-md">
+                <nav className="absolute top-full left-0 right-0 mt-2 mx-6 md:hidden flex flex-col gap-4 font-body text-sm tracking-wide text-primary-dark font-medium bg-white rounded-xl p-4 shadow-xl border border-gray-100 z-50">
                     <button onClick={() => handleNavClick('home')} className="text-left hover:text-primary">
                         HOME
                     </button>
