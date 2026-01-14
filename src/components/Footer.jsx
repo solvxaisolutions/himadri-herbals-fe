@@ -33,12 +33,12 @@ const Footer = () => {
             <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4" />
                 <a
-                    href="https://wa.me/919495528319"
+                    href="https://wa.me/918848430164"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-white transition-colors"
                 >
-                    +91 94955 28319
+                    +91 8848430164
                 </a>
             </div>
 
@@ -86,7 +86,7 @@ const Footer = () => {
                     </a>
 
                     <a
-                        href="https://wa.me/919495528319"
+                        href="https://wa.me/918848430164"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-neutral-cream text-primary-dark p-2 rounded-full hover:bg-white transition-colors"

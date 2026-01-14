@@ -35,3 +35,17 @@
 html {
   scroll-behavior: smooth;
 }
+
+
+/* Add this to index.css */
+
+@keyframes custom-whatsapp-bounce {
+  0%, 100% { transform: translateY(0); }
+  30% { transform: translateY(-15px); }
+  50% { transform: translateY(0); }
+  70% { transform: translateY(-8px); }
+}
+
+.custom-bounce {
+  animation: custom-whatsapp-bounce 1s ease-in-out;
+}

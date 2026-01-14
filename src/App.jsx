@@ -5,6 +5,7 @@ import logo from './assets/logo.png';
 import Hero from './components/Hero';
 import Features from './components/Features';
 import Footer from './components/Footer';
+import WhatsAppFloat from './components/WhatsAppFloat';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -42,6 +43,7 @@ function App() {
         <Features />
       </main>
       <Footer />
+      <WhatsAppFloat/>
     </div>
   );
 }
